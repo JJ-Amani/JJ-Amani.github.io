@@ -586,3 +586,34 @@ color:white;
     height: 250px;
     object-fit: contain;
 }
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .announcement-text {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
