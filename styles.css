@@ -623,7 +623,7 @@ color:white;
     .hero{
         flex-direction:column;
         text-align:center;
-        padding: 120px 8% 80px;
+        padding: 40px 8% 80px;
     }
 
     .hero-text h1{
